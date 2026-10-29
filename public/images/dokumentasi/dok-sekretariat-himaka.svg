@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#EFF4FF"/>
+  <!-- Campus 3 Building & Secretariat Architecture -->
+  <rect x="70" y="65" width="660" height="285" rx="10" fill="#FFFFFF" stroke="#0B1C30" stroke-width="2"/>
+  <rect x="70" y="65" width="660" height="58" rx="10" fill="#0B1C30"/>
+  <text x="100" y="92" fill="#6878FF" font-family="monospace" font-size="11" font-weight="700">FAKULTAS TEKNOLOGI INFORMASI (FTI) · PROGRAM STUDI INFORMATIKA UMBY</text>
+  <text x="100" y="110" fill="#FFFFFF" font-family="sans-serif" font-size="15" font-weight="700">Sekretariat HIMAKA UMBY — Gedung Kemahasiswaan Kampus 3 Ringroad Utara</text>
+
+  <!-- 4 Specialization Pillars of Informatics -->
+  <rect x="100" y="145" width="140" height="125" rx="8" fill="#F8F9FF" stroke="#0A2CFD" stroke-width="1.5"/>
+  <rect x="116" y="162" width="44" height="20" rx="4" fill="#0A2CFD"/>
+  <text x="123" y="176" fill="#FFFFFF" font-family="monospace" font-size="10" font-weight="700">01 · RPL</text>
+  <text x="116" y="202" fill="#0B1C30" font-family="sans-serif" font-size="13" font-weight="700">Software Eng.</text>
+  <text x="116" y="222" fill="#45464D" font-family="sans-serif" font-size="11">Web, Mobile App</text>
+  <text x="116" y="238" fill="#45464D" font-family="sans-serif" font-size="11">&amp; Arsitektur Sistem</text>
+
+  <rect x="253" y="145" width="140" height="125" rx="8" fill="#F8F9FF" stroke="#0A2CFD" stroke-width="1.5"/>
+  <rect x="269" y="162" width="44" height="20" rx="4" fill="#0B1C30"/>
+  <text x="276" y="176" fill="#FFFFFF" font-family="monospace" font-size="10" font-weight="700">02 · AI</text>
+  <text x="269" y="202" fill="#0B1C30" font-family="sans-serif" font-size="13" font-weight="700">AI &amp; Data</text>
+  <text x="269" y="222" fill="#45464D" font-family="sans-serif" font-size="11">Machine Learning</text>
+  <text x="269" y="238" fill="#45464D" font-family="sans-serif" font-size="11">&amp; Sains Data</text>
+
+  <rect x="406" y="145" width="140" height="125" rx="8" fill="#F8F9FF" stroke="#0A2CFD" stroke-width="1.5"/>
+  <rect x="422" y="162" width="48" height="20" rx="4" fill="#10B981"/>
+  <text x="428" y="176" fill="#0B1C30" font-family="monospace" font-size="10" font-weight="700">03 · NET</text>
+  <text x="422" y="202" fill="#0B1C30" font-family="sans-serif" font-size="13" font-weight="700">Cyber &amp; Cloud</text>
+  <text x="422" y="222" fill="#45464D" font-family="sans-serif" font-size="11">Jaringan Komputer</text>
+  <text x="422" y="238" fill="#45464D" font-family="sans-serif" font-size="11">&amp; Keamanan Siber</text>
+
+  <rect x="559" y="145" width="140" height="125" rx="8" fill="#F8F9FF" stroke="#0A2CFD" stroke-width="1.5"/>
+  <rect x="575" y="162" width="48" height="20" rx="4" fill="#AE1400"/>
+  <text x="581" y="176" fill="#FFFFFF" font-family="monospace" font-size="10" font-weight="700">04 · IOT</text>
+  <text x="575" y="202" fill="#0B1C30" font-family="sans-serif" font-size="13" font-weight="700">IoT &amp; Media</text>
+  <text x="575" y="222" fill="#45464D" font-family="sans-serif" font-size="11">Komputasi Cerdas</text>
+  <text x="575" y="238" fill="#45464D" font-family="sans-serif" font-size="11">&amp; Sistem Tertanam</text>
+
+  <!-- Secretariat Status Strip -->
+  <rect x="100" y="286" width="599" height="42" rx="6" fill="#ECFDF5" stroke="#10B981"/>
+  <text x="120" y="311" fill="#047857" font-family="monospace" font-size="11" font-weight="700">● DOKUMENTASI PROFIL INSTITUSI · BERDIRI SEJAK 2008 · 6 DIVISI KEPENGURUSAN</text>
+
+  <!-- Institutional Caption Footer Plate -->
+  <rect x="0" y="375" width="800" height="75" fill="#0B1C30"/>
+  <rect x="32" y="393" width="150" height="22" rx="4" fill="#0A2CFD"/>
+  <text x="44" y="408" fill="#FFFFFF" font-family="monospace" font-size="11" font-weight="700">DOK-PROFIL-HMK</text>
+  <text x="198" y="408" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">Sekretariat &amp; Laboratorium Kolaborasi 4 Peminatan Informatika UMBY</text>
+  <text x="198" y="428" fill="#CBD5E1" font-family="monospace" font-size="11">Jl. Ringroad Utara, Condongcatur, Sleman, DIY · Himpunan Mahasiswa Informatika</text>
+</svg>

@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dc79" />
+      <stop offset="30%" stop-color="#e5be46" />
+      <stop offset="55%" stop-color="#fff0a8" />
+      <stop offset="80%" stop-color="#c69627" />
+      <stop offset="100%" stop-color="#f0cb5b" />
+    </linearGradient>
+
+    <linearGradient id="goldRimGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fae187" />
+      <stop offset="50%" stop-color="#c99a2e" />
+      <stop offset="100%" stop-color="#f3cf61" />
+    </linearGradient>
+
+    <!-- Deep Navy Blue Gradient -->
+    <radialGradient id="navyBg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#11225c" />
+      <stop offset="65%" stop-color="#091540" />
+      <stop offset="100%" stop-color="#050c29" />
+    </radialGradient>
+
+    <!-- Subtle Glossy Highlight -->
+    <linearGradient id="glossGrad" x1="0%" y1="0%" x2="60%" y2="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Drop Shadow for Inner Elements -->
+    <filter id="goldShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#020617" flood-opacity="0.65" />
+    </filter>
+
+    <!-- Top Text Path (Clockwise Arc) -->
+    <path id="topTextArc" d="M 56,250 A 194,194 0 1,1 444,250" />
+    <!-- Bottom Text Path (Counter-Clockwise Arc for Upright Reading) -->
+    <path id="bottomTextArc" d="M 46,250 A 204,204 0 1,0 454,250" />
+  </defs>
+
+  <!-- Outer Gold Rim -->
+  <circle cx="250" cy="250" r="246" fill="url(#goldRimGrad)" />
+  <circle cx="250" cy="250" r="236" fill="url(#navyBg)" />
+
+  <!-- Outer Concentric Gold Hairline Ring -->
+  <circle cx="250" cy="250" r="228" fill="none" stroke="url(#goldGrad)" stroke-width="4.5" />
+
+  <!-- Inner Concentric Gold Rings -->
+  <circle cx="250" cy="250" r="168" fill="none" stroke="url(#goldGrad)" stroke-width="5.5" />
+  <circle cx="250" cy="250" r="156" fill="none" stroke="url(#goldGrad)" stroke-width="5" />
+
+  <!-- Diagonal Glossy Reflection Overlay -->
+  <path d="M 35,170 A 228,228 0 0,1 450,145 Q 270,220 35,170 Z" fill="url(#glossGrad)" />
+
+  <!-- Top Circular Text: HIMPUNAN MAHASISWA INFORMATIKA -->
+  <text
+    fill="url(#goldGrad)"
+    font-family="'Plus Jakarta Sans', 'Inter', Arial, sans-serif"
+    font-size="25.5"
+    font-weight="800"
+    letter-spacing="1.8"
+    filter="url(#goldShadow)"
+  >
+    <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">
+      HIMPUNAN MAHASISWA INFORMATIKA
+    </textPath>
+  </text>
+
+  <!-- Bottom Circular Text: UNIVERSITAS MERCU BUANA YOGYAKARTA -->
+  <text
+    fill="url(#goldGrad)"
+    font-family="'Plus Jakarta Sans', 'Inter', Arial, sans-serif"
+    font-size="23.5"
+    font-weight="800"
+    letter-spacing="1.2"
+    filter="url(#goldShadow)"
+  >
+    <textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle">
+      UNIVERSITAS MERCU BUANA YOGYAKARTA
+    </textPath>
+  </text>
+
+  <!-- Left & Right Gold Separator Dots -->
+  <circle cx="52" cy="253" r="8.5" fill="url(#goldGrad)" filter="url(#goldShadow)" />
+  <circle cx="448" cy="253" r="8.5" fill="url(#goldGrad)" filter="url(#goldShadow)" />
+
+  <!-- Center Heraldic Shield -->
+  <path
+    d="M 250,126
+       Q 296,158 356,166
+       C 356,252 342,334 250,390
+       C 158,334 144,252 144,166
+       Q 204,158 250,126 Z"
+    fill="#0c1b54"
+    fill-opacity="0.7"
+    stroke="url(#goldGrad)"
+    stroke-width="10"
+    stroke-linejoin="round"
+    filter="url(#goldShadow)"
+  />
+
+  <!-- Monitor Icon Inside Shield -->
+  <g filter="url(#goldShadow)">
+    <!-- Monitor Frame -->
+    <rect
+      x="206"
+      y="182"
+      width="88"
+      height="54"
+      rx="6"
+      fill="none"
+      stroke="url(#goldGrad)"
+      stroke-width="7.5"
+    />
+    <!-- Monitor Stand Neck & Base -->
+    <path
+      d="M 241,236 L 236,250 L 264,250 L 259,236 Z"
+      fill="url(#goldGrad)"
+    />
+    <rect x="226" y="248" width="48" height="6.5" rx="2.5" fill="url(#goldGrad)" />
+
+    <!-- Code Symbol < / > -->
+    <path
+      d="M 232,199 L 219,209 L 232,219"
+      fill="none"
+      stroke="url(#goldGrad)"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <line
+      x1="254"
+      y1="196"
+      x2="246"
+      y2="222"
+      stroke="url(#goldGrad)"
+      stroke-width="6"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 268,199 L 281,209 L 268,219"
+      fill="none"
+      stroke="url(#goldGrad)"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+
+  <!-- Center HIMAKA Wordmark Inside Shield -->
+  <text
+    x="250"
+    y="302"
+    text-anchor="middle"
+    fill="url(#goldGrad)"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="40"
+    font-weight="900"
+    letter-spacing="2.5"
+    filter="url(#goldShadow)"
+  >
+    HIMAKA
+  </text>
+
+  <!-- Minimalist Keyboard Matrix at Bottom of Shield -->
+  <g fill="url(#goldGrad)" filter="url(#goldShadow)">
+    <!-- Row 1 (6 dots) -->
+    <circle cx="225" cy="323" r="2.7" />
+    <circle cx="235" cy="323" r="2.7" />
+    <circle cx="245" cy="323" r="2.7" />
+    <circle cx="255" cy="323" r="2.7" />
+    <circle cx="265" cy="323" r="2.7" />
+    <circle cx="275" cy="323" r="2.7" />
+
+    <!-- Row 2 (6 dots) -->
+    <circle cx="225" cy="332" r="2.7" />
+    <circle cx="235" cy="332" r="2.7" />
+    <circle cx="245" cy="332" r="2.7" />
+    <circle cx="255" cy="332" r="2.7" />
+    <circle cx="265" cy="332" r="2.7" />
+    <circle cx="275" cy="332" r="2.7" />
+
+    <!-- Row 3 (6 dots) -->
+    <circle cx="225" cy="341" r="2.7" />
+    <circle cx="235" cy="341" r="2.7" />
+    <circle cx="245" cy="341" r="2.7" />
+    <circle cx="255" cy="341" r="2.7" />
+    <circle cx="265" cy="341" r="2.7" />
+    <circle cx="275" cy="341" r="2.7" />
+
+    <!-- Row 4 (2 dots left, spacebar, 2 dots right) -->
+    <circle cx="225" cy="349" r="2.5" />
+    <circle cx="233" cy="349" r="2.5" />
+    <rect x="239" y="347" width="22" height="4" rx="1.5" />
+    <circle cx="267" cy="349" r="2.5" />
+    <circle cx="275" cy="349" r="2.5" />
+  </g>
+</svg>

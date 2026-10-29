@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#101827"/>
+  <!-- Studio Acoustic Wall Grid -->
+  <line x1="0" y1="90" x2="800" y2="90" stroke="#1E293B" stroke-width="1"/>
+  <line x1="0" y1="180" x2="800" y2="180" stroke="#1E293B" stroke-width="1"/>
+  <line x1="0" y1="270" x2="800" y2="270" stroke="#1E293B" stroke-width="1"/>
+  <line x1="160" y1="0" x2="160" y2="375" stroke="#1E293B" stroke-width="1"/>
+  <line x1="640" y1="0" x2="640" y2="375" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Cinema Projection Screen Showing Student Documentary Frame -->
+  <rect x="170" y="38" width="460" height="230" rx="8" fill="#F8F9FF" stroke="#0A2CFD" stroke-width="3"/>
+  <rect x="188" y="54" width="424" height="170" rx="4" fill="#0B1C30"/>
+  <!-- Timecode & REC Indicator inside Projection -->
+  <circle cx="212" cy="76" r="6" fill="#EF4444"/>
+  <text x="226" y="80" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="700">PLAY · TC 00:14:28:09 · 24FPS</text>
+  <rect x="490" y="64" width="104" height="22" rx="4" fill="#0A2CFD"/>
+  <text x="502" y="79" fill="#FFFFFF" font-family="monospace" font-size="11" font-weight="700">4 FILM KARYA</text>
+
+  <!-- Documentary Scene Illustration on Screen -->
+  <circle cx="340" cy="145" r="34" fill="#1E293B" stroke="#6878FF" stroke-width="2"/>
+  <path d="M285 215C285 182 310 168 340 168C370 168 395 182 395 215H285Z" fill="#0A2CFD"/>
+  <!-- Audio Waveform on Screen -->
+  <rect x="425" y="128" width="8" height="36" rx="2" fill="#10B981"/>
+  <rect x="441" y="112" width="8" height="68" rx="2" fill="#10B981"/>
+  <rect x="457" y="120" width="8" height="52" rx="2" fill="#0A2CFD"/>
+  <rect x="473" y="104" width="8" height="84" rx="2" fill="#0A2CFD"/>
+  <rect x="489" y="132" width="8" height="28" rx="2" fill="#10B981"/>
+  <rect x="505" y="116" width="8" height="60" rx="2" fill="#6878FF"/>
+  <rect x="521" y="126" width="8" height="40" rx="2" fill="#10B981"/>
+  <text x="200" y="246" fill="#0B1C30" font-family="monospace" font-size="12" font-weight="700">STUDIO BROADCASTING KAMPUS 1 UMBY · BEDAH SINEMATOGRAFI &amp; AUDIO VISUAL</text>
+
+  <!-- Studio Fresnel Key Lights Left & Right -->
+  <polygon points="55,70 120,45 120,125 55,100" fill="#F59E0B"/>
+  <rect x="45" y="72" width="22" height="28" rx="3" fill="#CBD5E1"/>
+  <line x1="60" y1="100" x2="60" y2="365" stroke="#64748B" stroke-width="4"/>
+
+  <polygon points="745,70 680,45 680,125 745,100" fill="#F59E0B"/>
+  <rect x="733" y="72" width="22" height="28" rx="3" fill="#CBD5E1"/>
+  <line x1="740" y1="100" x2="740" y2="365" stroke="#64748B" stroke-width="4"/>
+
+  <!-- Cinema Rig & Boom Mic in Foreground -->
+  <rect x="115" y="290" width="90" height="52" rx="6" fill="#FFFFFF" stroke="#0A2CFD" stroke-width="2"/>
+  <rect x="205" y="302" width="32" height="28" rx="3" fill="#0A2CFD"/>
+  <circle cx="155" cy="316" r="14" fill="#0B1C30"/>
+  <line x1="160" y1="342" x2="135" y2="375" stroke="#CBD5E1" stroke-width="4"/>
+  <line x1="160" y1="342" x2="185" y2="375" stroke="#CBD5E1" stroke-width="4"/>
+
+  <!-- Audience & Director Discussion Silhouettes -->
+  <circle cx="340" cy="315" r="20" fill="#CBD5E1"/>
+  <path d="M306 375C306 350 320 338 340 338C360 338 374 350 374 375H306Z" fill="#0A2CFD"/>
+  <circle cx="445" cy="315" r="20" fill="#CBD5E1"/>
+  <path d="M411 375C411 350 425 338 445 338C465 338 479 350 479 375H411Z" fill="#334155"/>
+  <circle cx="550" cy="315" r="20" fill="#CBD5E1"/>
+  <path d="M516 375C516 350 530 338 550 338C570 338 584 350 584 375H516Z" fill="#0A2CFD"/>
+
+  <!-- Institutional Caption Footer Plate -->
+  <rect x="0" y="375" width="800" height="75" fill="#0B1C30"/>
+  <rect x="32" y="393" width="160" height="22" rx="4" fill="#0A2CFD"/>
+  <text x="44" y="408" fill="#FFFFFF" font-family="monospace" font-size="11" font-weight="700">DOK-HMK-2503 · AKADEMIK</text>
+  <text x="208" y="408" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">Malam Apresiasi &amp; Workshop Produksi Dokumenter Studio Broadcasting</text>
+  <text x="208" y="428" fill="#CBD5E1" font-family="monospace" font-size="11">Studio Broadcasting Kampus 1 UMBY, Jl. Wates · Praktikum Sinematografi</text>
+</svg>

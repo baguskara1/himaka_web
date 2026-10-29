@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --canvas-base: #f8fafc;
+    --surface-card: #ffffff;
+    --surface-subdued: #f1f5f9;
+    --border-hairline: #e2e8f0;
+    --text-strong: #0f172a;
+    --text-body: #334155;
+    --text-muted: #64748b;
+    --interactive-primary: #1d4ed8;
+    --tier-accent: #b91c1c;
+  }
+
+  body {
+    font-family:
+      var(--font-body), -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label {
+    font-family: var(--font-heading), sans-serif;
+    color: #0f172a;
+    letter-spacing: -0.015em;
+  }
+
+  code,
+  pre,
+  .font-mono-code {
+    font-family: var(--font-mono), monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.shadow-level-1 {
+  box-shadow:
+    0 1px 2px 0 rgba(15, 23, 42, 0.03),
+    0 1px 3px 0 rgba(15, 23, 42, 0.04);
+}
+
+.shadow-level-2 {
+  box-shadow:
+    0 4px 12px -2px rgba(15, 23, 42, 0.06),
+    0 2px 6px -2px rgba(15, 23, 42, 0.04);
+}
+
+.shadow-level-3 {
+  box-shadow:
+    0 16px 32px -6px rgba(15, 23, 42, 0.1),
+    0 6px 12px -4px rgba(15, 23, 42, 0.05);
+}
+
+.focus-academic:focus-visible {
+  outline: none;
+  border-color: #1d4ed8;
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.16);
+}

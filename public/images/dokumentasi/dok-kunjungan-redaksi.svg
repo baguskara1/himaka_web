@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#EFF4FF"/>
+  <!-- Architectural Grid Lines -->
+  <line x1="0" y1="75" x2="800" y2="75" stroke="#C6C6CD" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="0" y1="375" x2="800" y2="375" stroke="#C6C6CD" stroke-width="1"/>
+  <line x1="80" y1="0" x2="80" y2="450" stroke="#C6C6CD" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="720" y1="0" x2="720" y2="450" stroke="#C6C6CD" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Newsroom Data Wall & Monitors -->
+  <rect x="110" y="55" width="360" height="210" rx="10" fill="#0B1C30" stroke="#C6C6CD" stroke-width="2"/>
+  <rect x="126" y="71" width="155" height="95" rx="6" fill="#162B46" stroke="#0A2CFD" stroke-width="1.5"/>
+  <!-- Data Chart inside Screen 1 -->
+  <rect x="140" y="130" width="18" height="24" rx="2" fill="#0A2CFD"/>
+  <rect x="166" y="114" width="18" height="40" rx="2" fill="#0A2CFD"/>
+  <rect x="192" y="96" width="18" height="58" rx="2" fill="#10B981"/>
+  <rect x="218" y="108" width="18" height="46" rx="2" fill="#6878FF"/>
+  <circle cx="152" cy="86" r="5" fill="#10B981"/>
+  <rect x="164" y="83" width="84" height="6" rx="3" fill="#CBD5E1"/>
+
+  <!-- Screen 2: Fact-Check Verification Flow -->
+  <rect x="295" y="71" width="158" height="95" rx="6" fill="#162B46" stroke="#C6C6CD" stroke-width="1"/>
+  <rect x="310" y="85" width="90" height="8" rx="4" fill="#FFFFFF"/>
+  <rect x="310" y="101" width="125" height="6" rx="3" fill="#94A3B8"/>
+  <rect x="310" y="113" width="110" height="6" rx="3" fill="#94A3B8"/>
+  <rect x="310" y="132" width="76" height="20" rx="4" fill="#ECFDF5" stroke="#10B981" stroke-width="1"/>
+  <circle cx="322" cy="142" r="4" fill="#10B981"/>
+  <rect x="332" y="139" width="44" height="6" rx="3" fill="#047857"/>
+
+  <!-- Bottom News Ticker Bar on Wall -->
+  <rect x="126" y="178" width="327" height="70" rx="6" fill="#FFFFFF"/>
+  <rect x="140" y="192" width="110" height="10" rx="3" fill="#0B1C30"/>
+  <rect x="140" y="210" width="280" height="6" rx="3" fill="#767683"/>
+  <rect x="140" y="224" width="230" height="6" rx="3" fill="#767683"/>
+  <rect x="380" y="190" width="58" height="20" rx="4" fill="#EFF4FF" stroke="#0A2CFD" stroke-width="1"/>
+
+  <!-- Side Editorial Board -->
+  <rect x="495" y="55" width="195" height="210" rx="10" fill="#FFFFFF" stroke="#C6C6CD" stroke-width="1.5"/>
+  <rect x="515" y="75" width="155" height="24" rx="4" fill="#0B1C30"/>
+  <rect x="525" y="83" width="95" height="8" rx="4" fill="#FFFFFF"/>
+  <rect x="515" y="112" width="72" height="62" rx="6" fill="#F8F9FF" stroke="#C6C6CD"/>
+  <rect x="598" y="112" width="72" height="62" rx="6" fill="#F8F9FF" stroke="#C6C6CD"/>
+  <rect x="515" y="186" width="155" height="60" rx="6" fill="#ECFDF5" stroke="#10B981"/>
+  <rect x="530" y="202" width="105" height="8" rx="4" fill="#047857"/>
+  <rect x="530" y="218" width="125" height="6" rx="3" fill="#047857"/>
+
+  <!-- Conference Table & Student Delegates in Navy Blazers -->
+  <rect x="95" y="325" width="610" height="50" rx="8" fill="#FFFFFF" stroke="#0B1C30" stroke-width="2"/>
+  <line x1="115" y1="348" x2="685" y2="348" stroke="#C6C6CD" stroke-width="1"/>
+
+  <!-- Student 1 (Left) -->
+  <circle cx="190" cy="262" r="22" fill="#0B1C30"/>
+  <path d="M152 325C152 299 168 286 190 286C212 286 228 299 228 325H152Z" fill="#0B1C30"/>
+  <rect x="182" y="294" width="16" height="22" rx="2" fill="#0A2CFD"/>
+  <!-- Laptop 1 -->
+  <rect x="205" y="300" width="46" height="25" rx="3" fill="#45464D" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Student 2 (Center-Left) -->
+  <circle cx="315" cy="256" r="23" fill="#0A2CFD"/>
+  <path d="M275 325C275 297 293 283 315 283C337 283 355 297 355 325H275Z" fill="#0B1C30"/>
+  <rect x="307" y="290" width="16" height="24" rx="2" fill="#FFFFFF"/>
+
+  <!-- Senior Editor (Center-Right Standing/Presenting) -->
+  <circle cx="445" cy="248" r="24" fill="#0B1C30"/>
+  <path d="M402 325C402 293 420 276 445 276C470 276 488 293 488 325H402Z" fill="#1E293B"/>
+  <rect x="436" y="285" width="18" height="26" rx="3" fill="#10B981"/>
+
+  <!-- Student Photographer (Right with Camera) -->
+  <circle cx="585" cy="260" r="22" fill="#0B1C30"/>
+  <path d="M545 325C545 299 563 286 585 286C607 286 625 299 625 325H545Z" fill="#0A2CFD"/>
+  <rect x="535" y="268" width="32" height="22" rx="4" fill="#0B1C30" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="551" cy="279" r="6" fill="#6878FF"/>
+
+  <!-- Institutional Caption Footer Plate -->
+  <rect x="0" y="375" width="800" height="75" fill="#0B1C30"/>
+  <rect x="32" y="393" width="150" height="22" rx="4" fill="#0A2CFD"/>
+  <text x="44" y="408" fill="#FFFFFF" font-family="monospace" font-size="11" font-weight="700">DOK-HMK-2501 · MEDINFO</text>
+  <text x="198" y="408" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">Kunjungan Industri Teknologi &amp; Klinik Data Engineering</text>
+  <text x="198" y="428" fill="#CBD5E1" font-family="monospace" font-size="11">65 Delegasi Mahasiswa Informatika UMBY · Oktober 2025 · Yogyakarta</text>
+</svg>
